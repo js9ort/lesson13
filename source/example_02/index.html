@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="container mt-5 mb-5">		
+		
+		<h1 class="mb-4">Форма регистрации</h1>
+		
+		<form action="http://files.courses.dp.ua/backend/">
+		  <div class="row">
+			<div class="col-md-6 mb-3">
+			  <label for="client_fio">ФИО</label>
+			  <input type="text" class="form-control" id="client_fio" name="client_fio" placeholder="Ваше ФИО">
+			  <div class="invalid-feedback">
+				Нужно ввести ФИО!
+			  </div>
+			</div>
+			<div class="col-md-6 mb-3">
+			  <label for="client_email">Email</label>
+			  <input type="text" class="form-control" id="client_email" name="client_email" placeholder="Ваш email" >
+			  <div class="invalid-feedback">
+				Нужно ввести корректный Email!
+			  </div>
+			</div>
+			<div class="col-md-4 mb-3">
+			  <label for="client_inn">Телефон</label>
+			  <input type="text" class="form-control" id="client_phone" name="client_phone" placeholder="Ваш телефон" >
+			  <div class="invalid-feedback">
+				Нужно ввести корректный телефон!
+			  </div>
+			</div>
+			<div class="col-md-4 mb-3">
+			  <label for="client_inn">ИНН</label>
+			  <input type="text" class="form-control" id="client_inn" name="client_inn" placeholder="Ваш ИНН" >
+			  <div class="invalid-feedback">
+				Нужно ввести корректный ИНН!
+			  </div>
+			</div>
+			<div class="col-md-4 mb-3">
+			  <label for="client_passport">Номер паспорта</label>
+			  <input type="text" class="form-control" id="client_passport" name="client_passport" placeholder="Номер вашего паспорта">
+			  <div class="invalid-feedback">
+				Нужно ввести корректный номер паспорта!
+			  </div>
+			</div>	
+		  
+			<div class="col-md-12">
+				<button class="btn btn-primary w-100 mt-3" type="submit">Зарегистрировать</button>
+			</div>
+		  </div>
+		</form>
+
+	</div>
+</body>
+</html>
